@@ -1,5 +1,5 @@
-import { AddTask } from "../add.task/add.task";
-import { AddTask2 } from "../add.task/add.task2";
+import { AddTask } from "../models/Task";
+import { AddTask2 } from "../models/Task2";
 
 export default function ToDo() {
   return (
