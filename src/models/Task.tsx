@@ -1,5 +1,6 @@
 import { SyntheticEvent } from "react";
-import { Task } from "../../models/task";
+import { Task } from "../models/Task2";
+import { TaskStructure } from "../models/taskStructurepersonal";
 
 export function AddTask() {
   const handleSubmit = (event: SyntheticEvent) => {
@@ -15,7 +16,11 @@ export function AddTask() {
   return (
     <form aria-label="form" onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="title">Titulo</label>
+        <label htmlFor={Name}>Name</label>
+        <input type="text" name="title" id="title" required />
+      </div>
+      <div>
+        <label htmlFor={lastName}>Name</label>
         <input type="text" name="title" id="title" required />
       </div>
       <div>

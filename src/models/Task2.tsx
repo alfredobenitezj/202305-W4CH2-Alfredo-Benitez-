@@ -1,5 +1,5 @@
 import { SyntheticEvent, useState } from "react";
-import { Task } from "../../models/task";
+import { Task } from "./Task";
 
 type FormState = Pick<Task, "title" | "owner">;
 

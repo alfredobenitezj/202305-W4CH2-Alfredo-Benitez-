@@ -5,12 +5,13 @@ type PropsType = {
 };
 
 export function Header({ children, label, user }: PropsType) {
-  const title = "Hola mundo";
+  const title = "Formularios Forever";
+  const h2 = "And Ever";
 
   return (
     <>
       <header className="header">
-        <h1>{label}</h1>
+        <h2>{h2.toUpperCase}</h2>
       </header>
       {children ? (
         <>
